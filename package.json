@@ -1,7 +1,10 @@
 {
   "name": "appolo-dns-cache",
   "description": "cache node dns module",
-  "keywords": ["dns","dns-cache"],
+  "keywords": [
+    "dns",
+    "dns-cache"
+  ],
   "author": {
     "name": "Roman Svichar",
     "email": "shmoop207@gmail.com"
@@ -14,7 +17,7 @@
     "test": "mocha test --exit"
   },
   "main": "./index.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "repository": {
     "type": "git",
