@@ -1,0 +1,48 @@
+{
+  "name": "appolo-dns-cache",
+  "description": "cache node dns module",
+  "keywords": ["dns","dns-cache"],
+  "author": {
+    "name": "Roman Svichar",
+    "email": "shmoop207@gmail.com"
+  },
+  "engines": {
+    "node": ">= 8.4.x",
+    "npm": ">= 5.3.x"
+  },
+  "scripts": {
+    "test": "mocha test --exit"
+  },
+  "main": "./index.js",
+  "version": "0.0.3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shmoop207/appolo-dns-cache.git"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "appolo-cache": "^6.0.6"
+  },
+  "devDependencies": {
+    "@types/benchmark": "^1.0.31",
+    "@types/bluebird": "^3.5.24",
+    "@types/chai": "^4.1.6",
+    "@types/lodash": "^4.14.116",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.11.3",
+    "@types/sinon": "^7.0.12",
+    "@types/sinon-chai": "^3.2.2",
+    "benchmark": "^2.1.4",
+    "bluebird": "^3.5.2",
+    "chai": "^4.2.0",
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0",
+    "request": "^2.88.0",
+    "sinon": "^7.3.2",
+    "sinon-chai": "^3.3.0",
+    "tslib": "^1.9.3",
+    "typescript": "^3.1.1"
+  }
+}
